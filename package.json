@@ -15,9 +15,22 @@
     "@fontsource/quantico": "^5.1.1",
     "@tailwindcss/vite": "^4.0.5",
     "astro": "^5.1.5",
-    "sharp": "^0.32.5",
+    "sharp": "^0.32.6",
     "starlight-sidebar-topics": "^0.3.0",
     "tailwindcss": "^4.0.5"
   },
-  "packageManager": "pnpm@10.0.0"
+  "packageManager": "pnpm@10.0.0",
+  "pnpm": {
+    "supportedArchitectures": {
+      "os": [
+        "linux",
+        "darwin",
+        "current"
+      ],
+      "cpu": [
+        "x64",
+        "arm64"
+      ]
+    }
+  }
 }
