@@ -1,0 +1,42 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@plugin "@astrojs/starlight-tailwind";
+
+@import "@fontsource/quantico/400.css";
+@import "@fontsource/quantico/700.css";
+
+@theme {
+  --font-hard: "Quantico", sans-serif;
+}
+
+header {
+  @apply font-hard uppercase;
+}
+
+.hero {
+  @apply font-hard;
+  & .actions {
+    @apply uppercase font-bold;
+  }
+}
+
+#starlight__sidebar {
+  @apply font-hard;
+}
+
+main {
+  & h1,
+  & h2,
+  & h3,
+  & h4,
+  & h5,
+  & h6 {
+    @apply font-hard;
+  }
+}
+
+.right-sidebar {
+  @apply font-hard;
+}
