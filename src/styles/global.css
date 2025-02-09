@@ -9,14 +9,28 @@
 
 @theme {
   --font-hard: "Quantico", sans-serif;
-  --color-ingress: #783cbd;
+  --color-ingress-300: hsl(268 51.8% 78.8%);
+  --color-ingress-500: hsl(268 51.8% 48.8%);
+  --color-ingress-700: hsl(268 51.8% 18.8%);
 }
 
 :root[data-theme="light"],
 [data-theme="light"] ::backdrop,
 :root[data-theme="dark"],
 [data-theme="dark"] ::backdrop {
-  --sl-color-accent: var(--color-ingress);
+  --sl-color-accent: var(--color-ingress-500);
+}
+
+:root[data-theme="light"],
+[data-theme="light"] ::backdrop {
+  --sl-color-accent-low: var(--color-ingress-300);
+  --sl-color-accent-high: var(--color-ingress-700);
+}
+
+:root[data-theme="dark"],
+[data-theme="dark"] ::backdrop {
+  --sl-color-accent-low: var(--color-ingress-700);
+  --sl-color-accent-high: var(--color-ingress-300);
 }
 
 header {
