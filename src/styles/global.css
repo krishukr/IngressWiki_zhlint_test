@@ -9,6 +9,14 @@
 
 @theme {
   --font-hard: "Quantico", sans-serif;
+  --color-ingress: #783cbd;
+}
+
+:root[data-theme="light"],
+[data-theme="light"] ::backdrop,
+:root[data-theme="dark"],
+[data-theme="dark"] ::backdrop {
+  --sl-color-accent: var(--color-ingress);
 }
 
 header {
