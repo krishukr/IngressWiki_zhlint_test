@@ -24,6 +24,9 @@ export default defineConfig({
         baseUrl: "https://github.com/ingress-wiki/IngressWiki/edit/main/",
       },
       customCss: ["./src/styles/global.css"],
+      components: {
+        Footer: "./src/components/Footer.astro",
+      },
       plugins: [
         starlightSidebarTopics([
           {
