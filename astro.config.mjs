@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
+import svelte from "@astrojs/svelte";
+import brainDbAstro from "@braindb/astro";
 import starlightSidebarTopics from "starlight-sidebar-topics";
 
 import tailwindcss from "@tailwindcss/vite";
@@ -53,6 +55,11 @@ export default defineConfig({
             link: "/reference/",
             items: [
               {
+                label: "Concepts",
+                translations: { "zh-Hans": "概念" },
+                autogenerate: { directory: "reference/concepts" },
+              },
+              {
                 label: "Inventory Items",
                 translations: { "zh-Hans": "物品" },
                 autogenerate: { directory: "reference/items" },
@@ -67,6 +74,8 @@ export default defineConfig({
         ]),
       ],
     }),
+    svelte(),
+    brainDbAstro(),
   ],
 
   redirects: {
