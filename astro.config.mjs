@@ -85,7 +85,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
     server: {
-      allowedHosts: ["csb.app"],
+      allowedHosts: [".csb.app"],
     },
   },
 });
