@@ -1,0 +1,11 @@
+{
+  "soft_wrap": "editor_width",
+  "languages": {
+    "Astro": { "soft_wrap": "none" },
+    "TypeScript": { "soft_wrap": "none" },
+    "JavaScript": { "soft_wrap": "none" },
+    "Svelte": { "soft_wrap": "none" },
+    "JSON": { "soft_wrap": "none" },
+    "CSS": { "soft_wrap": "none" }
+  }
+}
