@@ -18,7 +18,10 @@ export default defineConfig({
     starlight({
       title: "Ingress.Wiki",
       social: {
-        github: "https://github.com/ingress-wiki/wiki",
+        github: "https://github.com/ingress-wiki/IngressWiki",
+      },
+      editLink: {
+        baseUrl: "https://github.com/ingress-wiki/IngressWiki/edit/main/",
       },
       customCss: ["./src/styles/global.css"],
       plugins: [
