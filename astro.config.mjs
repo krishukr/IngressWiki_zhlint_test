@@ -69,6 +69,10 @@ export default defineConfig({
     }),
   ],
 
+  redirects: {
+    "/": "/en",
+  },
+
   vite: {
     plugins: [tailwindcss()],
   },
