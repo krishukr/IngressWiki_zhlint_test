@@ -9,7 +9,7 @@ topic: guides
 
 ## Ingress 基础
 
-Ingress 里的玩家被称为特工（Agent），分为启蒙军（绿军 Enlightened）和抵抗军（蓝军 Resistance）两大阵营，游戏地图上有和现实世界位置关联的点位 Portal（简称 po），玩家需要不断地占领 Portal，将 Portal 相连形成三角形覆盖区域以扩大己方的势力。同时也可以【接近po并发射武器】攻击敌方 Portal，将敌方Portal变为白色，以此进行占领。这是游戏的核心玩法
+Ingress 里的玩家被称为特工（Agent） ，特工分为启蒙军（绿军 Enlightened）和抵抗军（蓝军 Resistance）两大阵营，游戏地图上有和现实世界位置关联的点位 Portal（简称 po），玩家需要不断地占领 Portal，将 Portal 相连形成三角形覆盖区域以扩大己方的势力。同时也可以【接近po并发射武器】攻击敌方 Portal，将敌方Portal变为白色，以此进行占领。这是游戏的核心玩法
 
 玩家在各种行动中获得经验值（AP），并不断升级，任何一个行动都能获取经验并提高等级。这也是许多特工在此游戏中的快乐
 
