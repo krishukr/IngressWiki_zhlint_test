@@ -3,18 +3,14 @@ title: 与Portal交互
 topic: guides
 ---
 
-
-Portal 是游戏中最核心的元素之一，与 Portal 交互也是游戏的核心玩法。几乎所有的游戏活动都与 Portal 有关，特工一般将 Portal 简称为 po 。通过占领更多的 po 、画三角覆盖更多区域扩大本方势力范围是游戏的核心玩法。
+Portal 是游戏中最核心的元素之一，与 Portal 交互是游戏的核心玩法。几乎所有的游戏活动都与 Portal 有关，特工们一般将 Portal 简称为 po 。通过占领更多的 po 、连线画三角覆盖更多区域以扩大己方势力范围是游戏的核心玩法。
 
 **当前地图中存在四种颜色的 Portal  ：**
 
-蓝色 Portal ：由蓝军占领的 Portal
-
-绿色 Portal ：由绿军占领的 Portal
-
-白色 Portal ：未被占领的 Portal
-
-红色 Portal ：自动生成的人机 Portal
+- 蓝色 Portal ：由蓝军占领的 Portal
+- 绿色 Portal ：由绿军占领的 Portal
+- 白色 Portal ：未被占领的 Portal
+- 红色 Portal ：自动生成的人机 Portal
 
 # 识别Portal交互页面
 
