@@ -1,18 +1,10 @@
 <style is:global>
-  /* The full css resets too much style, so I just took the spacing part from https://github.com/sivan/heti/blob/master/lib/helpers/_add-on.scss */
-  heti-spacing {
-    display: inline;
-  }
-  heti-spacing + sup,
-  heti-spacing + sub {
-    margin-inline-start: 0;
-  }
-  .heti-spacing-start {
-    margin-inline-end: 0.25em;
-  }
-  .heti-spacing-end {
-    margin-inline-start: 0.25em;
-  }
+  /**
+   * The full css resets too much style, so I just took the spacing part from https://github.com/sivan/heti/blob/master/lib/helpers/_add-on.scss
+   *
+   * MIT License
+   * Copyright (c) 2020 Sivan
+   */
   heti-adjacent {
     display: inline;
     text-spacing-trim: space-all;
@@ -23,14 +15,4 @@
   .heti-adjacent-quarter {
     margin-inline-end: -0.25em;
   }
-  .main-frame a,
-  .main-frame abbr[title],
-  .main-frame del,
-  .main-frame ins,
-  .main-frame s,
-  .main-frame u {
-    margin-inline-start: 1px;
-    margin-inline-end: 1px;
-  }
 </style>
-<script src="./heti"></script>
