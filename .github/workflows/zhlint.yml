@@ -31,6 +31,7 @@ jobs:
         uses: tj-actions/changed-files@v45
         with:
           files: src/content/docs/zh-hans/**/*.md{,x}
+          separator: ","
 
       - name: Run zhlint with retries
         id: run-zhlint
@@ -46,7 +47,7 @@ jobs:
           set +e
           while [ $count -lt $max_retries ]; do
             echo "Linting attempt $((count+1)) of $max_retries"
-            output=$(pnpm exec zhlint $changed_files --fix 2>&1)
+            output=$(pnpm exec zhlint "{$changed_files}" --fix 2>&1)
             echo "$output"
             if echo "$output" | grep -q "No error found."; then
               echo "All issues resolved"
