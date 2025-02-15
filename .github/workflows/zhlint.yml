@@ -30,7 +30,7 @@ jobs:
         id: changed-files
         uses: tj-actions/changed-files@v45
         with:
-          files: src/content/docs/zh-hans/**.{md,mdx}
+          files: src/content/docs/zh-hans/**/*.md{,x}
 
       - name: Run zhlint with retries
         id: run-zhlint
