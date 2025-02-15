@@ -43,6 +43,7 @@ jobs:
 
           max_retries=10
           count=0
+          set +e
           while [ $count -lt $max_retries ]; do
             echo "Linting attempt $((count+1)) of $max_retries"
             output=$(pnpm exec zhlint $changed_files --fix 2>&1)
@@ -53,6 +54,7 @@ jobs:
             fi
             ((count++))
           done
+          set -e
 
       - name: Generate lint patch
         run: git diff > lint.patch
