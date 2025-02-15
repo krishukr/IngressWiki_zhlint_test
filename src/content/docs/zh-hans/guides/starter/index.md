@@ -24,6 +24,6 @@ Ingress 里的玩家被称为特工（Agent），特工分为启蒙军（绿军 
 
 1. Vio. (2024, April 3). *小众游戏 Ingress 的十年：是什么让它令人如此着迷.* 少数派. Retrieved February 11, 2025, from https://sspai.com/prime/story/ingress-ten-years
 
-<!-- zhlinter ignore: V,years -->
+<!-- zhlint ignore: V,years -->
 
 这是一个怎么看都不听话!, （的句子），吧！！
